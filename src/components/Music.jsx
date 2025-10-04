@@ -14,7 +14,8 @@ export default function Music({ shouldPlay }) {
 
     return (
         <audio ref={audioRef} preload="auto">
-            <source src="/audio/bg.mp3" type="audio/mpeg" />
+            <source src="public/audio/bg.mp3" type="audio/mpeg" />
         </audio>
     )
+
 }
